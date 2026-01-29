@@ -1,0 +1,283 @@
+.american-football-page {
+  background-color: var(--color-secondary-off-white);
+}
+
+.sport-intro {
+  padding: var(--spacing-3xl) 0;
+  background-color: var(--color-secondary-white);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+}
+
+.intro-image {
+  background: linear-gradient(135deg, var(--color-gray-200) 0%, var(--color-gray-300) 100%);
+  border-radius: var(--radius-lg);
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-500);
+  font-size: var(--font-size-lg);
+  position: relative;
+  overflow: hidden;
+  background-image: url("../src/images/aboutimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+.intro-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, var(--color-primary-purple) 0%, transparent 60%);
+  opacity: 0.15;
+}
+
+.intro-content h2 {
+  color: var(--color-primary-purple);
+  margin-bottom: var(--spacing-lg);
+}
+
+.intro-content p {
+  color: var(--color-gray-600);
+  line-height: 1.8;
+}
+
+.intro-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+}
+
+.stat-item {
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-secondary-off-white);
+  border-radius: var(--radius-md);
+}
+
+.stat-number {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-primary-purple);
+}
+
+.stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+}
+
+.teams-section {
+  padding: var(--spacing-3xl) 0;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.team-card {
+  background-color: var(--color-secondary-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.team-image {
+  height: 200px;
+  background: linear-gradient(135deg, var(--color-gray-200) 0%, var(--color-gray-300) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-500);
+}
+
+.team-content {
+  padding: var(--spacing-lg);
+}
+
+.team-level {
+  display: inline-block;
+  background-color: var(--color-secondary-yellow);
+  color: var(--color-primary-black);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.team-content h4 {
+  color: var(--color-primary-purple);
+  margin-bottom: var(--spacing-sm);
+}
+
+.team-content p {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+}
+
+.schedule-section {
+  padding: var(--spacing-3xl) 0;
+  background-color: var(--color-secondary-white);
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-secondary-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: var(--spacing-md) var(--spacing-lg);
+  text-align: left;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.schedule-table th {
+  background-color: var(--color-primary-purple);
+  color: var(--color-secondary-white);
+  font-weight: 600;
+}
+
+.schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
+.schedule-table tr:hover td {
+  background-color: var(--color-secondary-off-white);
+}
+
+.match-status {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+.match-status.upcoming {
+  background-color: var(--color-secondary-yellow);
+  color: var(--color-primary-black);
+}
+
+.match-status.completed {
+  background-color: var(--color-primary-purple);
+  color: var(--color-secondary-white);
+}
+
+.coaching-section {
+  padding: var(--spacing-3xl) 0;
+}
+
+.coaching-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.coach-card {
+  text-align: center;
+  background-color: var(--color-secondary-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.coach-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.coach-avatar {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, var(--color-gray-200) 0%, var(--color-gray-300) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--spacing-md);
+  color: var(--color-gray-500);
+  font-size: var(--font-size-sm);
+}
+
+.coach-card h4 {
+  color: var(--color-primary-purple);
+  margin-bottom: var(--spacing-xs);
+}
+
+.coach-role {
+  color: var(--color-secondary-yellow);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.coach-card p {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .teams-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coaching-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-image {
+    min-height: 250px;
+  }
+
+  .intro-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .teams-grid,
+  .coaching-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-table {
+    font-size: var(--font-size-sm);
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    padding: var(--spacing-sm);
+  }
+}
