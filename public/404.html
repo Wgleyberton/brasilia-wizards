@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brasilia Wizards</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      // Stores the current path in sessionStorage and redirects to index
+      const path = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+
+      sessionStorage.setItem('spa-redirect', path + search + hash);
+      window.location.replace('/brasilia-wizards/');
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
