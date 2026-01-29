@@ -44,7 +44,7 @@
   color: var(--color-gray-400);
   font-size: var(--font-size-lg);
   border: 1px solid var(--color-gray-600);
-  background-image: url("../src/images/esports.jpg");
+  background-image: url("../../images/esports.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;

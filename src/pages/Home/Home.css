@@ -87,7 +87,7 @@
   font-size: var(--font-size-2xl);
   color: var(--color-secondary-white);
   font-weight: 700;
-  background-image: url("../src/images/running.png");
+  background-image: url("../../images/running.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -104,7 +104,7 @@
   font-size: var(--font-size-2xl);
   color: var(--color-secondary-white);
   font-weight: 700;
-  background-image: url("../src/images/flag.png");
+  background-image: url("../../images/flag.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -122,7 +122,7 @@
   font-size: var(--font-size-2xl);
   color: var(--color-secondary-white);
   font-weight: 700;
-  background-image: url("../src/images/gaming.png");
+  background-image: url("../../images/gaming.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -162,7 +162,7 @@
   font-size: var(--font-size-lg);
   position: relative;
   overflow: hidden;
-  background-image: url("../src/images/aboutimage.jpg");
+  background-image: url("../../images/aboutimage.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -242,7 +242,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-gray-500);
-  background-image: url("../src/images/treinosfull.jpg");
+  background-image: url("../../images/treinosfull.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -256,7 +256,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-gray-500);
-  background-image: url("../src/images/flagmasc.jpg");
+  background-image: url("../../images/flagmasc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -269,7 +269,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-gray-500);
-  background-image: url("../src/images/flagfem.jpg");
+  background-image: url("../../images/flagfem.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;

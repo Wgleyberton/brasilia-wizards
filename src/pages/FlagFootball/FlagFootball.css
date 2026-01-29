@@ -25,7 +25,7 @@
   font-size: var(--font-size-lg);
   position: relative;
   overflow: hidden;
-  background-image: url("../src/images/flagmasc.jpg");
+  background-image: url("../../images/flagmasc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -180,7 +180,7 @@
   color: var(--color-secondary-white);
   font-size: var(--font-size-xl);
   font-weight: 700;
-  background-image: url("../src/images/flag.png");
+  background-image: url("../../images/flag.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;

@@ -65,7 +65,7 @@
   transition: all var(--transition-fast);
   font-weight: 600;
   font-size: var(--font-size-sm);
-   background-image: url("../src/images/instagram.png");
+   background-image: url("../images/instagram.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
