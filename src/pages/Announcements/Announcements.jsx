@@ -113,23 +113,7 @@ function Announcements() {
       {/* Main Content */}
       <section className="announcements-content">
         <div className="container">
-          <div className="announcements-grid">
-            {/* Main Announcements */}
-              <div className="announcements-main">
-
-                <iframe src ='https://docs.google.com/forms/d/e/1FAIpQLSemhpiifESg3szgdzI4Dxp6D2qEvhKFfgOkkrxqSNxOm6ni1A/viewform'>
-                  
-                </iframe>
-                
-                {/* Pagination 
-                <div className="pagination">
-                  <button className="page-btn active">1</button>
-                  <button className="page-btn">2</button>
-                  <button className="page-btn">3</button>
-                  <button className="page-btn">→</button>
-                </div>
-                */}
-              </div> 
+          <div className='announcements-main'>
           </div>
         </div>
       </section>
