@@ -1,9 +1,35 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
+  const [showPopup, setShowPopup] = useState(true);
+  const navigate = useNavigate();
+
   return (
     <div className="home">
+      {/* Popup Alert */}
+      {showPopup && (
+        <div className="popup-overlay" onClick={() => setShowPopup(false)}>
+          <div className="popup-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="popup-close" onClick={() => setShowPopup(false)}>✕</button>
+            <p className="popup-header">Brasília Wizards informa:</p>
+            <div className="popup-icon">🏈</div>
+            <h2>Seletiva Feminina de Flag Football 2026</h2>
+            <h3>Vem jogar com a gente</h3>
+            <button
+              className="btn btn-primary popup-btn"
+              onClick={() => {
+                setShowPopup(false);
+                navigate('/announcements');
+              }}
+            >
+              Ir para inscrição
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Hero Section */}
       <section className="home-hero">
         <div className="hero-content">

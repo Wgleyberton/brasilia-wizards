@@ -48,11 +48,14 @@
   gap: var(--spacing-xl);
   width: 100%;
   height: 100vh;
-  background-image: url("../../images/aprovadosseletiva012026.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   
+}
+
+.announcements-main iframe {
+  width: 100%;
 }
 
 .announcement-card {
@@ -308,5 +311,13 @@
 
   .sidebar-section {
     min-width: auto;
+  }
+
+  .announcements-main {
+    height: auto;
+  }
+
+  .announcements-main iframe {
+    height: 600px;
   }
 }

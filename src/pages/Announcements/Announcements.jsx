@@ -88,9 +88,9 @@ function Announcements() {
         <div className="container">
           <h1>Seletiva Brasília Wizards</h1>
           <p>
-            Venha fazer parte do nosso time<br/>
-            <br/>
-            <span>IMPORTANTE</span><br/><br/>
+            Venha fazer parte do nosso time<br />
+            <br />
+            <span>IMPORTANTE</span><br /><br />
             Para aqueles que não puderam comparecer à seletiva, compareçam ao treino de sábado e conversem com o head coach; ele irá acompanhá-los em uma repescagem.
           </p>
         </div>
@@ -117,6 +117,13 @@ function Announcements() {
       <section className="announcements-content">
         <div className="container">
           <div className='announcements-main'>
+            <iframe src="https://forms.gle/aZQJifmbLwiEKs3k6"
+              width="640"
+              height="800"
+              style={{ border: 'none', margin: 0 }}>
+              Carregando…
+            </iframe>
+            
           </div>
         </div>
       </section>
