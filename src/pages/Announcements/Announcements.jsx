@@ -91,7 +91,7 @@ function Announcements() {
             Venha fazer parte do nosso time<br />
             <br />
             <span>IMPORTANTE</span><br /><br />
-            Para aqueles que não puderam comparecer à seletiva, compareçam ao treino de sábado e conversem com o head coach; ele irá acompanhá-los em uma repescagem.
+            Aberta seletiva de Flag Football Feminino.
           </p>
         </div>
       </div>
