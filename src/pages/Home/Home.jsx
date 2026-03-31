@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
   const navigate = useNavigate();
 
   return (
