@@ -88,10 +88,9 @@ function Announcements() {
         <div className="container">
           <h1>Seletiva Brasília Wizards</h1>
           <p>
-            Venha fazer parte do nosso time<br />
+           
             <br />
-            <span>IMPORTANTE</span><br /><br />
-            Aberta seletiva de Flag Football Feminino.
+            <span> Venha fazer parte do nosso time<br /></span>
           </p>
         </div>
       </div>
