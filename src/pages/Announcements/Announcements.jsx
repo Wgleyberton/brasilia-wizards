@@ -116,14 +116,24 @@ function Announcements() {
       {/* Main Content */}
       <section className="announcements-content">
         <div className="container">
-          <div className='announcements-main'>
-            <iframe src="https://forms.gle/aZQJifmbLwiEKs3k6"
-              width="640"
-              height="800"
-              style={{ border: 'none', margin: 0 }}>
-              Carregando…
-            </iframe>
-            
+          <div className="schedule-banner">
+            <h2 className="schedule-banner-title">Agenda de Treinos</h2>
+            <p className="schedule-banner-weekly">Treinos às Terças e Quintas às 19h30</p>
+            <p className="schedule-banner-highlight">Treinos Abertos aos Sábados</p>
+            <div className="schedule-banner-grid">
+              <div className="schedule-banner-item">
+                <span className="schedule-banner-label">Flag Football Masculino</span>
+                <span className="schedule-banner-time">14h00</span>
+              </div>
+              <div className="schedule-banner-item">
+                <span className="schedule-banner-label">Flag Football Feminino</span>
+                <span className="schedule-banner-time">15h30</span>
+              </div>
+              <div className="schedule-banner-item">
+                <span className="schedule-banner-label">Full Pads Masculino</span>
+                <span className="schedule-banner-time">15h30</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
