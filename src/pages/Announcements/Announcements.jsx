@@ -120,7 +120,7 @@ function Announcements() {
           </h2>
           <div className="announcements-main">
             <iframe
-              src="https://maps.google.com/maps?q=-15.8321969,-47.971784&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=-15.8321969,-47.971784&t=k&z=17&ie=UTF8&iwloc=&output=embed"
               title="Campo de Futebol - Guarà 2"
               frameBorder="0"
               allowFullScreen
