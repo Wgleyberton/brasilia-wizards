@@ -112,6 +112,25 @@ function Announcements() {
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="announcements-content">
+        <div className="container">
+          <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--color-primary-purple)' }}>
+            Local dos Treinos
+          </h2>
+          <div className="announcements-main">
+            <iframe
+              src="https://maps.google.com/maps?q=-15.8321969,-47.971784&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              title="Campo de Futebol - Guarà 2"
+              frameBorder="0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Filter Section
       <section className="announcements-filter">
         <div className="container">
