@@ -96,7 +96,7 @@ function Announcements() {
       </div>
 
       {/* Form Section */}
-      <section className="announcements-content">
+      {/* <section className="announcements-content">
         <div className="container">
           <div className="announcements-main">
             <iframe
@@ -110,45 +110,9 @@ function Announcements() {
             </iframe>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Map Section */}
-      <section className="announcements-content">
-        <div className="container">
-          <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--color-primary-purple)' }}>
-            Local dos Treinos
-          </h2>
-          <div className="announcements-main">
-            <iframe
-              src="https://maps.google.com/maps?q=-15.8321969,-47.971784&t=k&z=17&ie=UTF8&iwloc=&output=embed"
-              title="Campo de Futebol - Guarà 2"
-              frameBorder="0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Filter Section
-      <section className="announcements-filter">
-        <div className="container">
-          <div className="filter-container">
-            {filters.map((filter) => (
-              <button
-                key={filter.id}
-                className={`filter-btn ${activeFilter === filter.id ? 'active' : ''}`}
-                onClick={() => setActiveFilter(filter.id)}
-              >
-                {filter.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>*/}
-
-      {/* Main Content
+      {/* {/* Main Content */}
       <section className="announcements-content">
         <div className="container">
           <div className="schedule-banner">
@@ -171,7 +135,26 @@ function Announcements() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+
+         {/* Map Section */}
+      <section className="announcements-content">
+        <div className="container">
+          <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--color-primary-purple)' }}>
+            Local dos Treinos
+          </h2>
+          <div className="announcements-main">
+            <iframe
+              src="https://maps.google.com/maps?q=-15.8321969,-47.971784&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+              title="Campo de Futebol - Guarà 2"
+              frameBorder="0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
