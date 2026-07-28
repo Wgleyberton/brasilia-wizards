@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
+import popupImage from '../../images/popup.jpeg';
 
 function Home() {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(true);
   const navigate = useNavigate();
 
   return (
@@ -11,21 +12,8 @@ function Home() {
       {/* Popup Alert */}
       {showPopup && (
         <div className="popup-overlay" onClick={() => setShowPopup(false)}>
-          <div className="popup-modal" onClick={(e) => e.stopPropagation()}>
+          <div className="popup-modal popup-image-only" onClick={(e) => e.stopPropagation()} style={{ backgroundImage: `url(${popupImage})` }}>
             <button className="popup-close" onClick={() => setShowPopup(false)}>✕</button>
-            <p className="popup-header">Brasília Wizards informa:</p>
-            <div className="popup-icon">🏈</div>
-            <h2>Seletiva Feminina de Flag Football 2026</h2>
-            <h3>Vem jogar com a gente</h3>
-            <button
-              className="btn btn-primary popup-btn"
-              onClick={() => {
-                setShowPopup(false);
-                navigate('/announcements');
-              }}
-            >
-              Ir para inscrição
-            </button>
           </div>
         </div>
       )}
