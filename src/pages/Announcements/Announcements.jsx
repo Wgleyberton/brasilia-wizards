@@ -96,11 +96,11 @@ function Announcements() {
       </div>
 
       {/* Form Section */}
-      {/* <section className="announcements-content">
+      <section className="announcements-content">
         <div className="container">
           <div className="announcements-main">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdvhMuMd22G3kWzZz1h-27w9qzV9XzdMdBdEMEDzrvntsxl9w/viewform?embedded=true"
+              src="https://forms.gle/yWZywb1xzGhA5s5X8"
               title="Formulário de Inscrição - Seletiva Brasília Wizards"
               frameBorder="0"
               marginHeight="0"
@@ -110,10 +110,10 @@ function Announcements() {
             </iframe>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* {/* Main Content */}
-      <section className="announcements-content">
+      {/* <section className="announcements-content">
         <div className="container">
           <div className="schedule-banner">
             <h2 className="schedule-banner-title">Agenda de Treinos</h2>
@@ -135,7 +135,7 @@ function Announcements() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
          {/* Map Section */}
       <section className="announcements-content">
