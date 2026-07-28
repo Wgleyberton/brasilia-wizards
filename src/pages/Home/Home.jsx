@@ -12,8 +12,12 @@ function Home() {
       {/* Popup Alert */}
       {showPopup && (
         <div className="popup-overlay" onClick={() => setShowPopup(false)}>
-          <div className="popup-modal popup-image-only" onClick={(e) => e.stopPropagation()} style={{ backgroundImage: `url(${popupImage})` }}>
-            <button className="popup-close" onClick={() => setShowPopup(false)}>✕</button>
+          <div
+            className="popup-modal popup-image-only"
+            onClick={() => { setShowPopup(false); navigate('/announcements'); }}
+            style={{ backgroundImage: `url(${popupImage})`, cursor: 'pointer' }}
+          >
+            <button className="popup-close" onClick={(e) => { e.stopPropagation(); setShowPopup(false); }}>✕</button>
           </div>
         </div>
       )}
