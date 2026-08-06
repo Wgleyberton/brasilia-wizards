@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home/Home';
 import History from './pages/History/History';
 import AmericanFootball from './pages/AmericanFootball/AmericanFootball';
@@ -13,6 +14,7 @@ import './styles/global.css';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Header />
         <main>

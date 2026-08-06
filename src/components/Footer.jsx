@@ -11,11 +11,11 @@ function Footer() {
           <div className="footer-section">
             <h4>Sobre o Brasilia Wizards</h4>
             <p>
-              Uma organização multiesportiva de excelência dedicada ao futebol americano, flag fooball e e-sports. Junte-se à nossa comunidade e faça parte da nossa História.
+              Uma organização multiesportiva de excelência dedicada ao futebol americano, flag football e e-sports. Junte-se à nossa comunidade e faça parte da nossa História.
             </p>
             <div className="footer-social">
               
-              <a href="https://www.instagram.com/brasiliawizards/" className="social-link" aria-label="Instagram"></a>
+              <a href="https://www.instagram.com/brasiliawizards/" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"></a>
               
             </div>
           </div>
