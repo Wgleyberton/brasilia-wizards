@@ -4,7 +4,7 @@ import './Home.css';
 import popupImage from '../../images/popup.jpeg';
 
 function Home() {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
   const navigate = useNavigate();
 
   return (

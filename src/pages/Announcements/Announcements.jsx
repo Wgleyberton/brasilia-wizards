@@ -96,7 +96,7 @@ function Announcements() {
       </div>
 
       {/* Form Section */}
-      <section className="announcements-content">
+      {/* <section className="announcements-content">
         <div className="container">
           <div className="announcements-main">
             <iframe
@@ -110,10 +110,10 @@ function Announcements() {
             </iframe>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* {/* Main Content */}
-      {/* <section className="announcements-content">
+      <section className="announcements-content">
         <div className="container">
           <div className="schedule-banner">
             <h2 className="schedule-banner-title">Agenda de Treinos</h2>
@@ -135,7 +135,7 @@ function Announcements() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
          {/* Map Section */}
       <section className="announcements-content">
