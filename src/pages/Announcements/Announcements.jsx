@@ -122,11 +122,11 @@ function Announcements() {
             <div className="schedule-banner-grid">
               <div className="schedule-banner-item">
                 <span className="schedule-banner-label">Flag Football Masculino</span>
-                <span className="schedule-banner-time">14h00</span>
+                <span className="schedule-banner-time">10h00</span>
               </div>
               <div className="schedule-banner-item">
                 <span className="schedule-banner-label">Flag Football Feminino</span>
-                <span className="schedule-banner-time">15h30</span>
+                <span className="schedule-banner-time">14h00</span>
               </div>
               <div className="schedule-banner-item">
                 <span className="schedule-banner-label">Full Pads Masculino</span>
